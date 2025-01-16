@@ -51,7 +51,7 @@ def gerar_tarefas_semanais(tarefas):
     tarefas_semanais = []
     for _ in range(7):
         tarefa = r.choice(tarefas)
-        tempo_estimado = r.randint(30, 60)  # Tempo estimado entre 30 e 60 minutos
+        tempo_estimado = r.randint(30, 60)
         tarefas_semanais.append((tarefa, tempo_estimado))
     return tarefas_semanais
 
@@ -63,8 +63,8 @@ def executar_tarefas(tarefas_semanais):
         print(f"Iniciando a tarefa: '{tarefa}' em {hora_inicio.strftime('%H:%M:%S')}")
         print(f"Tempo estimado: {tempo_estimado} minutos...")
 
-        # Simulando o tempo gasto na tarefa
-        tempo_gasto = tempo_estimado + r.randint(-5, 5)  # Variação de até 5 minutos
+
+        tempo_gasto = tempo_estimado + r.randint(-5, 5)
         hora_fim = hora_inicio + dt.timedelta(minutes=tempo_gasto)
         print(f"Tarefa '{tarefa}' concluída em {hora_fim.strftime('%H:%M:%S')}")
         print("..............................................................................")

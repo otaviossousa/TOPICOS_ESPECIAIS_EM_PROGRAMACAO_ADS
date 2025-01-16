@@ -1,0 +1,52 @@
+{
+    "Joao": {
+        "notas": [
+            0,
+            5,
+            6,
+            9
+        ],
+        "media": 5.0,
+        "situacao": "Reprovado"
+    },
+    "Maria": {
+        "notas": [
+            3,
+            3,
+            7,
+            7
+        ],
+        "media": 5.0,
+        "situacao": "Reprovado"
+    },
+    "Jose": {
+        "notas": [
+            9,
+            10,
+            1,
+            2
+        ],
+        "media": 5.5,
+        "situacao": "Reprovado"
+    },
+    "Ana": {
+        "notas": [
+            6,
+            1,
+            3,
+            8
+        ],
+        "media": 4.5,
+        "situacao": "Reprovado"
+    },
+    "Carlos": {
+        "notas": [
+            9,
+            7,
+            2,
+            10
+        ],
+        "media": 7.0,
+        "situacao": "Aprovado"
+    }
+}
